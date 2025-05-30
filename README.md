@@ -55,15 +55,16 @@ Note: The model outputs a single logit, interpreted as the price in lakhs of INR
 Built with Gradio to quickly deploy and interact with ML models.
 
 ## 📁 Project Structure
-
 car-price-predictor/
-├── app.py               # Main application script
-├── car_price_model/     # Fine-tuned DistilBERT model files (pytorch_model.bin, config.json, tokenizer)
-├── requirements.txt     # Python dependencies
-├── README.md            # Project documentation
+├── app.py                 # Main application script
+├── car_price_model/       # Directory containing the fine-tuned DistilBERT model files
+│   ├── pytorch_model.bin  # Model weights
+│   ├── config.json        # Model configuration
+│   └── tokenizer          # Tokenizer files (e.g., vocab.txt, tokenizer_config.json)
+├── requirements.txt       # List of Python dependencies
+└── README.md              # Project documentation
 
 ## ✍️ Author
-
 - coolbro99 – https://huggingface.co/coolbro99
 
 ## 📜 License
