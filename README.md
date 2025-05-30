@@ -37,7 +37,7 @@ Note: The model outputs a single logit, interpreted as the price in lakhs of INR
 ## 🛠️ Installation (Local)
 
 1. Clone the repository:
-   git clone https://github.com/Sriwhocodes/car-price-predictor.git
+   git clone https://github.com/Sriwhocodes/FineTunedLLMModel.git
    cd car-price-predictor
 
 2. Set up a virtual environment:
